@@ -22,15 +22,25 @@ public class Main {
 		System.out.println("Table: \n");
 		System.out.println("Enter number to calulate table: ");
 		
-		int user_in = input.nextInt();
-		//System.out.println(user_in);
+		/*
+		 * int user_in = input.nextInt(); //System.out.println(user_in);
+		 * 
+		 * for(int i=1;i<13;i++) { System.out.println(user_in+ " x "+ i + " = " +
+		 * i*user_in);
+		 * 
+		 * }
+		 */		
+		//Generics
 		
-		for(int i=1;i<13;i++) {
-			System.out.println(user_in+ " x "+ i + " = " + i*user_in);
-			
+		//ENUMS
+		Days[] values = Days.values();
 		
+		for(Days aDays : values) {
+			System.out.println(aDays);
 			
 		}
+		
+		
 		
 		
 		
