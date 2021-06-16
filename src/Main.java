@@ -28,7 +28,7 @@ public class Main {
 		for(int i=1;i<13;i++) {
 			System.out.println(user_in+ " x "+ i + " = " + i*user_in);
 			
-			
+		
 			
 		}
 		
