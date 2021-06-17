@@ -16,7 +16,7 @@ public class Literals {
 		String name = "Rizzan";
 	
 		
-		System.out.println(val+pi+ch+21);
+		//System.out.println(val+pi+ch+21);
 
 	}
 
