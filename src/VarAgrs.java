@@ -6,7 +6,7 @@ public class VarAgrs {
 		
 		System.out.println("TEST");
 		
-		System.out.println(howAboutVarArgs(100,50,150));
+		System.out.println(howAboutVarArgs(85,77,66,81,79));
 
 	}
 	
